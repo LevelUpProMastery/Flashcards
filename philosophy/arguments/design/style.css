@@ -2,8 +2,8 @@
 .brand-header { text-align:center; padding: 24px 16px 10px; }
 .logo { max-width: 260px; height: auto; }
 :root {
-  --green-dark: #0f2418;
-  --green-darker: #0a1a12;
+  --black-dark: #0a0a0a;
+  --black: #111111;
   --gold: #b08a2e;
   --white: #ffffff;
 }
@@ -15,7 +15,11 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg, var(--green-dark), var(--green-darker));
+  background: linear-gradient(
+    135deg,
+    var(--black-dark),
+    var(--black)
+    );
   color: var(--white);
 }
 
