@@ -1,8 +1,8 @@
 /* ===== Level-Up Brand Theme ===== */
 
 :root {
-  --black: #0f2418;
-  --black: #0a1a12;
+  --black: #0a0a0a;
+  --black: #111111;
   --gold: #b08a2e;
   --white: #ffffff;
 }
@@ -14,7 +14,11 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #000;
+  background: linear-gradient(
+    135deg,
+    var(--black-dark),
+    var(--black)
+    );
   color: var(--white);
 }
 
