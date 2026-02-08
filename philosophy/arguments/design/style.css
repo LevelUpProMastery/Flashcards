@@ -1,5 +1,6 @@
 /* ===== Level-Up Brand Theme ===== */
-
+.brand-header { text-align:center; padding: 24px 16px 10px; }
+.logo { max-width: 260px; height: auto; }
 :root {
   --green-dark: #0f2418;
   --green-darker: #0a1a12;
