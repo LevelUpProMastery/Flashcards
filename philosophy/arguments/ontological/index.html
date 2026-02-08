@@ -15,15 +15,15 @@
 
     <div class="controls">
       <input id="search" type="search" placeholder="Search cards…" />
-      <button id="shuffleBtn">Shuffle</button>
-      <button id="resetBtn" class="secondary">Reset</button>
+      <button id="shuffleBtn" type="button">Shuffle</button>
+      <button id="resetBtn" type="button" class="secondary">Reset</button>
       <a class="secondary" href="flashcards.csv" download>Download CSV</a>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="cardShell">
-      <button id="card" class="card">
+    <section class="cardShell" aria-live="polite">
+      <button id="card" class="card" type="button" aria-label="Flashcard. Click to flip.">
         <div class="face front">
           <div class="label">Front</div>
           <div id="frontText" class="text">Loading…</div>
@@ -35,13 +35,135 @@
       </button>
 
       <div class="nav">
-        <button id="prevBtn" class="secondary">← Prev</button>
-        <span id="count">0 / 0</span>
-        <button id="nextBtn" class="secondary">Next →</button>
+        <button id="prevBtn" type="button" class="secondary">← Prev</button>
+        <div class="status"><span id="count">0 / 0</span></div>
+        <button id="nextBtn" type="button" class="secondary">Next →</button>
       </div>
     </section>
   </main>
 
-  <script src="script.js"></script>
+  <script>
+    // Self-contained flashcards loader (Front,Back). No external script.js needed.
+    let allCards = [];
+    let viewCards = [];
+    let idx = 0;
+
+    const el = {
+      card: document.getElementById('card'),
+      front: document.getElementById('frontText'),
+      back: document.getElementById('backText'),
+      count: document.getElementById('count'),
+      prev: document.getElementById('prevBtn'),
+      next: document.getElementById('nextBtn'),
+      shuffle: document.getElementById('shuffleBtn'),
+      reset: document.getElementById('resetBtn'),
+      search: document.getElementById('search'),
+    };
+
+    function parseCSV(text){
+      // Handles commas safely (quoted fields supported).
+      const rows = [];
+      let i = 0, field = '', row = [], inQuotes = false;
+
+      while (i < text.length){
+        const c = text[i];
+        if (inQuotes){
+          if (c === '"' && text[i+1] === '"'){ field += '"'; i += 2; continue; }
+          if (c === '"'){ inQuotes = false; i++; continue; }
+          field += c; i++; continue;
+        } else {
+          if (c === '"'){ inQuotes = true; i++; continue; }
+          if (c === ','){ row.push(field); field=''; i++; continue; }
+          if (c === '\n'){
+            row.push(field); field='';
+            if (row.some(x => x.trim().length)) rows.push(row);
+            row=[]; i++; continue;
+          }
+          if (c === '\r'){ i++; continue; }
+          field += c; i++; continue;
+        }
+      }
+      row.push(field);
+      if (row.some(x => x.trim().length)) rows.push(row);
+
+      if (!rows.length) return [];
+      const headers = rows[0].map(h => (h||'').trim().toLowerCase());
+      const fI = headers.indexOf('front');
+      const bI = headers.indexOf('back');
+
+      const out = [];
+      for (const r of rows.slice(1)){
+        const front = (r[fI] ?? '').trim();
+        const back  = (r[bI] ?? '').trim();
+        if (front || back) out.push({front, back});
+      }
+      return out;
+    }
+
+    function render(){
+      if (!viewCards.length){
+        el.front.textContent = 'No cards found (check flashcards.csv).';
+        el.back.textContent = '';
+        el.count.textContent = '0 / 0';
+        el.card.classList.remove('is-flipped');
+        return;
+      }
+      idx = ((idx % viewCards.length) + viewCards.length) % viewCards.length;
+      const c = viewCards[idx];
+      el.front.textContent = c.front || '(no front)';
+      el.back.textContent = c.back || '(no back)';
+      el.count.textContent = (idx + 1) + ' / ' + viewCards.length;
+    }
+
+    function flip(){ el.card.classList.toggle('is-flipped'); }
+    function next(){ el.card.classList.remove('is-flipped'); idx++; render(); }
+    function prev(){ el.card.classList.remove('is-flipped'); idx--; render(); }
+
+    function shuffle(arr){
+      for (let i = arr.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+    }
+
+    function applySearch(){
+      const q = (el.search.value || '').trim().toLowerCase();
+      viewCards = !q ? [...allCards] : allCards.filter(c =>
+        c.front.toLowerCase().includes(q) || c.back.toLowerCase().includes(q)
+      );
+      idx = 0;
+      render();
+    }
+
+    async function init(){
+      try{
+        const res = await fetch('flashcards.csv', {cache:'no-store'});
+        const text = await res.text();
+        allCards = parseCSV(text);
+        viewCards = [...allCards];
+        idx = 0;
+        render();
+      } catch (e){
+        el.front.textContent = 'Could not load flashcards.csv';
+        el.back.textContent = String(e);
+        el.count.textContent = '0 / 0';
+      }
+    }
+
+    el.card.addEventListener('click', flip);
+    el.next.addEventListener('click', next);
+    el.prev.addEventListener('click', prev);
+    el.shuffle.addEventListener('click', () => { shuffle(viewCards); idx = 0; render(); });
+    el.reset.addEventListener('click', () => { el.search.value=''; viewCards=[...allCards]; idx=0; render(); });
+    el.search.addEventListener('input', applySearch);
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === ' '){ e.preventDefault(); flip(); }
+      if (e.key === 'ArrowRight') next();
+      if (e.key === 'ArrowLeft') prev();
+    });
+
+    init();
+  </script>
 </body>
 </html>
