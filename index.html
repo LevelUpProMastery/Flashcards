@@ -1,11 +1,68 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Flashcards</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AQA Philosophy of Religion – Flashcards</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Flashcards site is working 🎉</h1>
-  <p>If you can see this, GitHub Pages is live.</p>
+  <header class="wrap">
+    <div class="title">
+      <h1>AQA Philosophy of Religion – Flashcards</h1>
+      <p class="sub">Unlisted deck link (share inside Skool). Click the card to flip.</p>
+    </div>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search cards (e.g., Paley, Hume, Hick)..." />
+      <button id="shuffleBtn" type="button">Shuffle</button>
+      <button id="resetBtn" type="button" class="secondary">Reset</button>
+      <a id="downloadCsv" class="secondary" href="flashcards.csv" download>Download CSV</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="cardShell" aria-live="polite">
+      <button id="card" class="card" type="button" aria-label="Flashcard. Click to flip.">
+        <div class="face front">
+          <div class="label">Front</div>
+          <div id="frontText" class="text">Loading…</div>
+        </div>
+        <div class="face back">
+          <div class="label">Back</div>
+          <div id="backText" class="text"></div>
+        </div>
+      </button>
+
+      <div class="nav">
+        <button id="prevBtn" type="button" class="secondary">← Prev</button>
+        <div class="status">
+          <span id="count">0 / 0</span>
+          <span class="dot">•</span>
+          <span id="mode">All cards</span>
+        </div>
+        <button id="nextBtn" type="button" class="secondary">Next →</button>
+      </div>
+
+      <div class="tips">
+        Tip: Press <kbd>Space</kbd> to flip, <kbd>←</kbd>/<kbd>→</kbd> to move.
+      </div>
+    </section>
+
+    <section class="small">
+      <h2>How to update your deck</h2>
+      <ol>
+        <li>Edit <code>flashcards.csv</code> (columns: <strong>Front</strong>, <strong>Back</strong>).</li>
+        <li>Upload the new CSV to GitHub (same filename) and commit.</li>
+        <li>Refresh this page.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <small>Made for Skool linking. Source file: <code>flashcards.csv</code>.</small>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
