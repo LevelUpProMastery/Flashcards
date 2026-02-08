@@ -137,7 +137,7 @@
 
     async function init(){
       try{
-        const res = await fetch('flashcards.csv', {cache:'no-store'});
+        const res = await fetch('./flashcards.csv', {cache:'no-store'});
         const text = await res.text();
         allCards = parseCSV(text);
         viewCards = [...allCards];
