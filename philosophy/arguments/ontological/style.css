@@ -27,6 +27,9 @@ body {
 
 .brand-header {
   text-align: center;
+  .page-title {
+  white-space: nowrap;
+}
   padding: 24px 16px 10px;
 }
 
