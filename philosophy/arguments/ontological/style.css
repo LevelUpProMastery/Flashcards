@@ -27,9 +27,13 @@ body {
 
 .brand-header {
   text-align: center;
-  .page-title {
+  padding: 24px 16px 10px;
+}
+
+.page-title {
   white-space: nowrap;
 }
+
   padding: 24px 16px 10px;
 }
 
@@ -48,10 +52,11 @@ body {
 
 .title h1 {
   margin: 20px 0 6px;
-  font-size: 42px;
+  font-size: clamp(28px, 4vw, 42px);
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .sub {
