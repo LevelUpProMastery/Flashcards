@@ -2,30 +2,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="preconnect" href+"https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="http://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
- 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>GCSE Bioogy</title>
+  <title>GCSE Biology</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="brand-header">
-    <img src="/Flashcards/logo.png" alt="Level-Up Online Tutoring" class=logo">
+    <img src="/Flashcards/logo.png" alt="Level-Up Online Tutoring" class="logo">
   </header>
-    <header class="wrap">
+
+  <header class="wrap">
     <div class="title">
       <h1>GCSE Biology</h1>
-      <p class="sub">Click the card to flip. Use search + shuffle.</p>
-    </div>
-
-    <div class="controls">
-      <input id="search" type="search" placeholder="Search cards…" />
-      <button id="shuffleBtn" type="button">Shuffle</button>
-      <button id="resetBtn" type="button" class="secondary">Reset</button>
-      <a class="secondary" href="flashcards.csv" download>Download CSV</a>
+      <p class="sub">Click the card to flip. Use shuffle + reset.</p>
     </div>
   </header>
 
@@ -41,6 +36,12 @@
           <div id="backText" class="text"></div>
         </div>
       </button>
+
+      <!-- NEW: buttons moved under the card -->
+      <div class="controls below-card">
+        <button id="shuffleBtn" type="button">Shuffle</button>
+        <button id="resetBtn" type="button" class="secondary">Reset</button>
+      </div>
 
       <div class="nav">
         <button id="prevBtn" type="button" class="secondary">← Prev</button>
@@ -67,7 +68,6 @@
       next: document.getElementById('nextBtn'),
       shuffle: document.getElementById('shuffleBtn'),
       reset: document.getElementById('resetBtn'),
-      search: document.getElementById('search'),
     };
 
     function parseCSV(text){
@@ -136,15 +136,6 @@
       }
     }
 
-    function applySearch(){
-      const q = (el.search.value || '').trim().toLowerCase();
-      viewCards = !q ? [...allCards] : allCards.filter(c =>
-        c.front.toLowerCase().includes(q) || c.back.toLowerCase().includes(q)
-      );
-      idx = 0;
-      render();
-    }
-
     async function init(){
       try{
         const res = await fetch('flashcards.csv', {cache:'no-store'});
@@ -163,8 +154,7 @@
     el.next.addEventListener('click', next);
     el.prev.addEventListener('click', prev);
     el.shuffle.addEventListener('click', () => { shuffle(viewCards); idx = 0; render(); });
-    el.reset.addEventListener('click', () => { el.search.value=''; viewCards=[...allCards]; idx=0; render(); });
-    el.search.addEventListener('input', applySearch);
+    el.reset.addEventListener('click', () => { viewCards=[...allCards]; idx=0; render(); });
 
     window.addEventListener('keydown', (e) => {
       if (e.key === ' '){ e.preventDefault(); flip(); }
