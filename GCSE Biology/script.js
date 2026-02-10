@@ -30,7 +30,7 @@ function parseCSV(text){
       field += c; i++; continue;
     } else {
       if (c === '"'){ inQuotes = true; i++; continue; }
-      if (c === ','){ row.push(field); field = ''; i++; continue; }
+      if (c === ',' || c === ';'){ row.push(field); field = ''; i++; continue; }
       if (c === '\n'){
         row.push(field); field = '';
         if (row.some(x => x.trim().length)) rows.push(row);
