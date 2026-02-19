@@ -30,7 +30,7 @@ function parseCSV(text){
       field += c; i++; continue;
     } else {
       if (c === '"'){ inQuotes = true; i++; continue; }
-      if (c === ','){ row.push(field); field = ''; i++; continue; }
+      if (c === ',' || c === ';'){ row.push(field); field = ''; i++; continue; }
       if (c === '\n'){
         row.push(field); field = '';
         if (row.some(x => x.trim().length)) rows.push(row);
@@ -48,7 +48,9 @@ function parseCSV(text){
   const headers = rows[0].map(h => (h || '').trim().toLowerCase());
   const frontIdx = headers.indexOf('front');
   const backIdx  = headers.indexOf('back');
-
+if (frontIdx === -1 || backIdx === -1) {
+  throw new Error('CSV headers not found. Make sure first row is Front,Back');
+}
   const out = [];
   for (const r of rows.slice(1)){
     const front = (r[frontIdx] ?? '').trim();

@@ -1,7 +1,8 @@
 /* ===== Level-Up Brand Theme ===== */
-
+.brand-header { text-align:center; padding: 24px 16px 10px; }
+.logo { max-width: 260px; height: auto; }
 :root {
-  --black: #0a0a0a;
+  --black-dark: #0a0a0a;
   --black: #111111;
   --gold: #b08a2e;
   --white: #ffffff;
@@ -29,8 +30,15 @@ body {
   padding: 24px 16px 10px;
 }
 
+.page-title {
+  white-space: nowrap;
+}
+
+  padding: 24px 16px 10px;
+}
+
 .logo {
-  max-width: 60px;
+  max-width: 260px;
   height: auto;
 }
 
@@ -44,10 +52,11 @@ body {
 
 .title h1 {
   margin: 20px 0 6px;
-  font-size: 42px;
+  font-size: clamp(28px, 4vw, 42px);
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .sub {
@@ -152,3 +161,12 @@ body {
 .status {
   font-weight: bold;
 }
+.controls.below-card{
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
