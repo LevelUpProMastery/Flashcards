@@ -1,1 +1,76 @@
+"Front","Back"
+"What is an atom?","The smallest unit of an element that retains its properties."
+"What are the three subatomic particles?","Protons, neutrons and electrons."
+"What is the charge and mass of a proton?","+1 charge, mass 1."
+"What is the charge and mass of a neutron?","0 charge, mass 1."
+"What is the charge and mass of an electron?","-1 charge, mass 1/1836."
+"What is atomic number?","Number of protons in an atom."
+"What is mass number?","Total number of protons and neutrons."
+"What is an isotope?","Atoms of the same element with different numbers of neutrons."
+"Why do isotopes have similar chemical properties?","They have the same electron configuration."
+"What is relative atomic mass (Ar)?","Weighted mean mass of isotopes."
+"How is Ar calculated?","(mass × abundance) ÷ 100."
 
+"Calculation: Find Ar of Cl (35, 75%) and (37, 25%)","(35×75 + 37×25)/100 = (2625 + 925)/100 = 35.5"
+
+"What is mass spectrometry?","Technique used to determine isotopic composition."
+"What are the stages of mass spectrometry?","Ionisation, acceleration, deflection, detection."
+"What is first ionisation energy?","Energy required to remove one electron from each atom in 1 mole of gaseous atoms."
+"Equation for first ionisation energy","X(g) → X⁺(g) + e⁻"
+"Why does ionisation energy increase across a period?","Increased nuclear charge and same shielding."
+"Why does ionisation energy decrease down a group?","Increased shielding and distance from nucleus."
+
+"What is electron configuration?","Arrangement of electrons in orbitals."
+"What is the order of filling orbitals?","1s, 2s, 2p, 3s, 3p, 4s..."
+"What is Hund’s rule?","Electrons occupy orbitals singly before pairing."
+"What is the Pauli exclusion principle?","Opposite spins in same orbital."
+
+"What is Avogadro’s constant?","6.02 × 10²³ particles per mole."
+
+"Calculation: Number of particles in 2 moles","2 × 6.02×10²³ = 1.204×10²⁴ particles"
+
+"What is the mole?","Amount of substance containing Avogadro’s number of particles."
+"Formula for moles","moles = mass ÷ Mr"
+
+"Calculation: Find moles in 12g of carbon (Mr=12)","12 ÷ 12 = 1 mole"
+
+"What is empirical formula?","Simplest whole-number ratio of atoms."
+
+"Calculation: Empirical formula from 40%C, 6.7%H, 53.3%O","C:40/12=3.33, H:6.7/1=6.7, O:53.3/16=3.33 → ratio 1:2:1 → CH₂O"
+
+"What is molecular formula?","Actual number of atoms in a compound."
+
+"Calculation: Find molecular formula if empirical CH₂O, Mr=180","Empirical mass = 30 → 180/30 = 6 → C₆H₁₂O₆"
+
+"What is electron affinity?","Energy change when an electron is added to a gaseous atom."
+"What is shielding?","Inner electrons reduce nuclear attraction."
+"What is nuclear charge?","Total positive charge of nucleus."
+
+"What is a photon?","Packet of electromagnetic energy."
+"What is E=hf?","Energy = Planck constant × frequency."
+
+"Calculation: Find energy of photon (f = 5×10¹⁴ Hz)","E = 6.63×10⁻³⁴ × 5×10¹⁴ = 3.315×10⁻¹⁹ J"
+
+"What is c = fλ?","Speed of light = frequency × wavelength."
+
+"Calculation: Find wavelength if f = 6×10¹⁴ Hz","λ = 3×10⁸ ÷ 6×10¹⁴ = 5×10⁻⁷ m"
+
+"What is emission spectra?","Light emitted when electrons fall to lower energy levels."
+"What is line spectrum?","Discrete wavelengths of light."
+
+"What is successive ionisation energy?","Energy to remove each electron in turn."
+"What does a large jump in ionisation energy show?","Electron removed from inner shell."
+
+"What is relative isotopic abundance?","Percentage of each isotope."
+
+"Calculation: Find % abundance from Ar=24.3 (Mg isotopes 24 & 25)","Use weighted average method to solve."
+
+"What is uncertainty?","Measure of precision of data."
+"What is percentage uncertainty?","(uncertainty ÷ value) × 100"
+
+"Calculation: % uncertainty if ±0.1 in 25.0","(0.1/25.0)×100 = 0.4%"
+
+"What is significant figures?","Digits used to express precision."
+"What is standard form?","Number written as a ×10ⁿ"
+
+"Calculation: Convert 0.00045 to standard form","4.5 ×10⁻⁴"
