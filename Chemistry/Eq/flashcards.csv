@@ -1,1 +1,105 @@
+"Front","Back"
+"What is dynamic equilibrium?","State where forward and reverse reactions occur at equal rates."
+"What are conditions for equilibrium?","Closed system and constant conditions."
 
+"What is Le Chatelier’s principle?","System shifts to oppose changes."
+
+"What happens if concentration increases?","Equilibrium shifts to use up added substance."
+"What happens if concentration decreases?","Shifts to replace it."
+
+"What happens if temperature increases (exothermic)?","Shifts to endothermic direction."
+"What happens if temperature increases (endothermic)?","Shifts to endothermic side."
+
+"What happens if pressure increases?","Shifts to side with fewer gas molecules."
+
+"What is Kc?","Equilibrium constant based on concentration."
+
+"Expression for Kc","[products] / [reactants]"
+
+"Calculation: Kc for aA + bB ⇌ cC","Kc = [C]^c / ([A]^a[B]^b)"
+
+"What does Kc > 1 mean?","Products favoured."
+"What does Kc < 1 mean?","Reactants favoured."
+
+"What happens to Kc when concentration changes?","No effect."
+"What happens to Kc when temperature changes?","It changes."
+
+"What is homogeneous equilibrium?","All substances in same phase."
+"What is heterogeneous equilibrium?","Different phases."
+
+"What is Ka?","Acid dissociation constant."
+
+"Expression for Ka","[H⁺][A⁻] / [HA]"
+
+"What does a strong acid have?","High Ka."
+
+"What is pH?","Measure of hydrogen ion concentration."
+
+"Formula for pH","pH = −log[H⁺]"
+
+"Formula for [H⁺]","[H⁺] = 10⁻ᵖᴴ"
+
+"Calculation: pH if [H⁺] = 1×10⁻³","pH = 3"
+
+"Calculation: [H⁺] if pH = 4","1×10⁻⁴"
+
+"What is Kw?","Ionic product of water."
+
+"Expression for Kw","[H⁺][OH⁻] = 1×10⁻¹⁴"
+
+"What is pKw?","14 at 25°C"
+
+"What is pH + pOH?","= 14"
+
+"What is a strong acid?","Fully dissociates."
+"What is a weak acid?","Partially dissociates."
+
+"What is a buffer solution?","Resists pH change."
+
+"What is acidic buffer?","Weak acid + salt."
+
+"What is basic buffer?","Weak base + salt."
+
+"What is the Henderson-Hasselbalch equation?","pH = pKa + log([A⁻]/[HA])"
+
+"What is a titration?","Method to determine concentration."
+
+"What is equivalence point?","Exact neutralisation point."
+
+"What is an indicator?","Substance that changes colour."
+
+"What is the pH curve?","Graph of pH vs volume added."
+
+"What is a strong acid-strong base titration?","Sharp pH change at 7."
+
+"What is a weak acid-strong base titration?","pH > 7 at equivalence."
+
+"What is a half-equivalence point?","pH = pKa"
+
+"What is a key exam tip?","State direction of shift and why."
+
+"What is a common mistake?","Confusing Kc and Ka."
+
+"What is AO1 in equilibrium?","Definitions."
+"What is AO2 in equilibrium?","Calculations."
+"What is AO3 in equilibrium?","Explain shifts."
+
+"What is a strong explanation phrase?","Equilibrium shifts to oppose the change."
+
+"What is effect of catalyst on equilibrium?","No effect on position."
+
+"What is a key evaluation point?","Only temperature changes Kc."
+
+"What is a closed system?","No matter enters or leaves."
+
+"What is partial pressure?","Pressure of individual gas."
+
+"What is Kp?","Equilibrium constant using pressure."
+
+"Expression for Kp","(p products) / (p reactants)"
+
+"What is a key calculation tip?","Always use correct units."
+
+"What is biggest exam gain?","Clear Le Chatelier explanation."
+
+"What is a strong conclusion tip?","Link shift to energy or particles."
