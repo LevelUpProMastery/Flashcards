@@ -1,1 +1,88 @@
+"Front","Back"
+"What is an acid?","A proton (H⁺) donor."
+"What is a base?","A proton (H⁺) acceptor."
+"What is an alkali?","A base that dissolves in water."
 
+"What is a strong acid?","Fully dissociates in water."
+"What is a weak acid?","Partially dissociates."
+
+"What is pH?","Measure of hydrogen ion concentration."
+
+"Formula for pH","pH = −log[H⁺]"
+"Formula for [H⁺]","[H⁺] = 10⁻ᵖᴴ"
+
+"Calculation: pH if [H⁺] = 1×10⁻²","pH = 2"
+"Calculation: [H⁺] if pH = 5","1×10⁻⁵ mol/dm³"
+
+"What is Kw?","Ionic product of water."
+
+"Expression for Kw","[H⁺][OH⁻] = 1×10⁻¹⁴"
+
+"What is pKw?","14 at 25°C"
+
+"What is pH + pOH?","= 14"
+
+"Calculation: Find [OH⁻] if [H⁺]=1×10⁻³","[OH⁻]=1×10⁻¹¹"
+
+"What is Ka?","Acid dissociation constant."
+
+"Expression for Ka","[H⁺][A⁻] / [HA]"
+
+"What does large Ka mean?","Strong acid."
+"What does small Ka mean?","Weak acid."
+
+"What is pKa?","−log Ka"
+
+"What is a buffer solution?","Resists change in pH."
+
+"What is acidic buffer?","Weak acid + conjugate base."
+"What is basic buffer?","Weak base + conjugate acid."
+
+"What is conjugate base?","Species formed after acid loses H⁺."
+
+"What is Henderson-Hasselbalch equation?","pH = pKa + log([A⁻]/[HA])"
+
+"Calculation: Buffer pH example","Substitute values into equation."
+
+"What happens when acid added to buffer?","Buffer removes added H⁺."
+"What happens when alkali added?","Buffer removes OH⁻."
+
+"What is titration?","Used to find concentration."
+
+"What is equivalence point?","Exact neutralisation."
+
+"What is half-equivalence point?","pH = pKa"
+
+"What is indicator?","Changes colour at certain pH."
+
+"What is strong acid–strong base titration?","Sharp change at pH 7."
+"What is weak acid–strong base titration?","Equivalence >7."
+
+"What is pH curve?","Graph of pH vs volume."
+
+"What is a key exam tip?","Always convert logs correctly."
+
+"What is a common mistake?","Forgetting log calculations."
+
+"What is AO1 in acids?","Definitions."
+"What is AO2 in acids?","Apply formulas."
+"What is AO3 in acids?","Explain buffer action."
+
+"What is a strong explanation phrase?","Buffer resists pH change by neutralising added ions."
+
+"What is a key evaluation point?","Buffers only work within limits."
+
+"What is biggest exam gain?","Correct pH calculations."
+
+"What is strong acid example?","HCl"
+"What is weak acid example?","CH₃COOH"
+
+"What is dissociation?","Breaking into ions in solution."
+
+"What is equilibrium in weak acids?","Partial dissociation."
+
+"What is dilution effect on pH?","Weak acids change slightly, strong acids change more."
+
+"What is log rule?","log(10⁻x) = −x"
+
+"What is a strong conclusion tip?","Link pH to concentration and strength."
