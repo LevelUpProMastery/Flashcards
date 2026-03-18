@@ -1,1 +1,102 @@
+"Front","Back"
+"What is enthalpy change (ΔH)?","Heat energy change at constant pressure."
+"What is an exothermic reaction?","Releases heat, ΔH is negative."
+"What is an endothermic reaction?","Absorbs heat, ΔH is positive."
 
+"What is standard enthalpy change?","Enthalpy change under standard conditions (298K, 1 atm, 1 mol/dm³)."
+
+"What is standard enthalpy of formation?","Energy change when 1 mole of compound forms from elements."
+"What is standard enthalpy of combustion?","Energy change when 1 mole of substance burns in oxygen."
+
+"What is bond enthalpy?","Energy required to break bonds."
+
+"Formula: Bond enthalpy calculation","ΔH = bonds broken − bonds formed"
+
+"Calculation: If bonds broken = 800, bonds formed = 1000","ΔH = 800 − 1000 = -200 kJ/mol"
+
+"What does a negative ΔH indicate?","Exothermic reaction."
+"What does a positive ΔH indicate?","Endothermic reaction."
+
+"What is Hess’s Law?","Total enthalpy change is independent of pathway."
+
+"What is an enthalpy cycle?","Diagram showing energy changes in reactions."
+
+"What is calorimetry?","Measuring heat energy changes."
+
+"Formula for calorimetry","q = mcΔT"
+
+"What does q represent?","Energy (J)"
+"What does m represent?","Mass (g)"
+"What does c represent?","Specific heat capacity (4.18 J/g°C)"
+"What does ΔT represent?","Temperature change"
+
+"Calculation: q if m=100g, ΔT=5°C","q = 100 × 4.18 × 5 = 2090 J"
+
+"Convert J to kJ","Divide by 1000"
+
+"Calculation: 2090 J to kJ","2.09 kJ"
+
+"What is energy per mole?","q ÷ moles"
+
+"Calculation: If q=2.09kJ and moles=0.1","ΔH = 2.09 ÷ 0.1 = -20.9 kJ/mol"
+
+"What is a limitation of calorimetry?","Heat loss to surroundings."
+
+"What is activation energy?","Minimum energy required for reaction."
+
+"What is an energy profile diagram?","Graph showing energy changes."
+
+"What is the peak of energy diagram?","Activation energy."
+
+"What is the difference between exo and endo diagrams?","Exo ends lower, endo ends higher."
+
+"What is entropy?","Measure of disorder."
+
+"What is Gibbs free energy?","ΔG = ΔH − TΔS"
+
+"What does ΔG < 0 mean?","Reaction is feasible."
+
+"What does ΔG > 0 mean?","Reaction is not feasible."
+
+"What does T represent in ΔG?","Temperature in Kelvin."
+
+"Convert °C to K","Add 273"
+
+"Calculation: Convert 25°C to K","298 K"
+
+"What is lattice enthalpy?","Energy released forming ionic lattice."
+
+"What is hydration enthalpy?","Energy released when ions dissolve."
+
+"What determines solubility?","Balance of lattice and hydration enthalpy."
+
+"What is average bond enthalpy?","Mean bond energy from different compounds."
+
+"What is a limitation of bond enthalpies?","They are averages."
+
+"What is enthalpy level diagram?","Shows relative energy of reactants/products."
+
+"What is heat capacity?","Energy required to raise temperature."
+
+"What is specific heat capacity?","Energy per gram per °C."
+
+"What is a strong exam tip?","Always include units (kJ/mol)."
+
+"What is a common mistake?","Forgetting to divide by moles."
+
+"What is AO1 in energetics?","Definitions and formulas."
+"What is AO2 in energetics?","Apply formulas in calculations."
+"What is AO3 in energetics?","Explain energy changes and limitations."
+
+"What is a key evaluation point?","Experimental results lose heat."
+
+"What is Hess cycle use?","Calculate unknown ΔH."
+
+"What is combustion always?","Exothermic."
+
+"What is neutralisation enthalpy?","Energy change forming 1 mole of water."
+
+"What is sign of exothermic ΔH?","Negative."
+"What is sign of endothermic ΔH?","Positive."
+
+"What is a strong conclusion tip?","Link energy change to reaction feasibility."
