@@ -1,1 +1,96 @@
+"Front","Back"
+"What is rate of reaction?","Change in concentration of reactants or products per unit time."
+"What is the formula for rate?","rate = change in concentration ÷ time"
 
+"Calculation: Rate if concentration changes from 0.5 to 0.2 in 10s","(0.5 − 0.2)/10 = 0.03 mol/dm³/s"
+
+"What is collision theory?","Particles must collide with sufficient energy and correct orientation."
+"What is activation energy?","Minimum energy required for a reaction."
+
+"What factors affect rate?","Temperature, concentration, surface area, catalyst."
+
+"What is effect of temperature?","Increases rate by increasing energy of particles."
+"What is effect of concentration?","More particles → more collisions."
+"What is effect of surface area?","More exposed particles → faster reaction."
+"What is effect of catalyst?","Lowers activation energy."
+
+"What is Maxwell-Boltzmann distribution?","Distribution of particle energies."
+
+"What happens when temperature increases (graph)?","Curve flattens and shifts right."
+"What happens to activation energy line?","More particles exceed it."
+
+"What is rate equation?","rate = k[A]^m[B]^n"
+"What is order of reaction?","Sum of powers in rate equation."
+
+"What is first order reaction?","Rate proportional to concentration."
+"What is second order reaction?","Rate proportional to concentration squared."
+"What is zero order reaction?","Rate independent of concentration."
+
+"What is half-life?","Time for concentration to halve."
+
+"What is half-life for first order?","Constant."
+
+"Calculation: Half-life example","If halves every 10s → constant first order."
+
+"What is rate constant (k)?","Proportionality constant in rate equation."
+
+"What affects k?","Temperature and catalyst."
+
+"What are units of rate?","mol/dm³/s"
+
+"What are units of k?","Depend on order of reaction."
+
+"What is initial rate method?","Finding rate from initial slope."
+
+"What is a tangent?","Line touching curve at one point."
+
+"Calculation: Rate from graph","Gradient of tangent = rate"
+
+"What is concentration-time graph?","Shows change over time."
+
+"What is gradient of graph?","Rate of reaction."
+
+"What is zero order graph?","Straight line decreasing."
+
+"What is first order graph?","Curved decay."
+
+"What is second order graph?","Steeper curve."
+
+"What is catalyst?","Substance that speeds reaction without being used."
+
+"What is homogeneous catalyst?","Same phase as reactants."
+"What is heterogeneous catalyst?","Different phase from reactants."
+
+"What is a reaction mechanism?","Step-by-step pathway of reaction."
+
+"What is an intermediate?","Formed and used up in mechanism."
+
+"What is rate-determining step?","Slowest step controlling rate."
+
+"What is Arrhenius equation?","k = Ae^(-Ea/RT)"
+
+"What does Ea represent?","Activation energy."
+"What does R represent?","Gas constant."
+"What does T represent?","Temperature in Kelvin."
+
+"Convert °C to K","Add 273"
+
+"Calculation: Convert 20°C to K","293 K"
+
+"What is a key exam tip?","Link rate to collisions and energy."
+
+"What is a common mistake?","Forgetting units."
+
+"What is AO1 in kinetics?","Definitions."
+"What is AO2 in kinetics?","Apply equations."
+"What is AO3 in kinetics?","Explain trends and mechanisms."
+
+"What is a key evaluation point?","Real reactions may not follow ideal models."
+
+"What is the effect of catalyst on graph?","Lowers activation energy."
+
+"What is a strong explanation phrase?","More particles exceed activation energy."
+
+"What is the relationship between rate and concentration?","Higher concentration increases rate."
+
+"What is the biggest exam gain?","Correct explanation using collision theory."
