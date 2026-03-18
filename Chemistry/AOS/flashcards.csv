@@ -1,1 +1,119 @@
+"Front","Back"
+"What is the mole?","The amount of substance containing 6.02 × 10²³ particles."
+"What is Avogadro’s constant?","6.02 × 10²³ particles per mole."
+"What is molar mass (Mr)?","Mass of 1 mole of a substance in g/mol."
 
+"Formula for moles (mass)","moles = mass ÷ Mr"
+
+"Calculation: Find moles in 10g NaCl (Mr=58.5)","10 ÷ 58.5 = 0.171 mol"
+
+"Formula for mass","mass = moles × Mr"
+
+"Calculation: Find mass of 0.5 mol CO₂ (Mr=44)","0.5 × 44 = 22g"
+
+"What is empirical formula?","Simplest whole number ratio of atoms."
+
+"Calculation: Empirical formula from C=24g, H=4g, O=32g","C:24/12=2, H:4/1=4, O:32/16=2 → ratio 1:2:1 → CH₂O"
+
+"What is molecular formula?","Actual number of atoms in a molecule."
+
+"Calculation: Molecular formula if empirical CH₂O, Mr=180","Empirical mass = 30 → 180/30 = 6 → C₆H₁₂O₆"
+
+"What is percentage yield?","(actual yield ÷ theoretical yield) × 100"
+
+"Calculation: % yield if actual=8g, theoretical=10g","(8/10)×100 = 80%"
+
+"What is atom economy?","(Mr desired product ÷ total Mr of products) × 100"
+
+"Calculation: Atom economy example","(desired ÷ total) ×100 (apply values in exam)"
+
+"What is concentration?","Amount of solute per volume of solution."
+
+"Formula for concentration","c = moles ÷ volume (dm³)"
+
+"Calculation: Find concentration if 0.5 mol in 0.25 dm³","0.5 ÷ 0.25 = 2 mol/dm³"
+
+"Convert cm³ to dm³","Divide by 1000"
+
+"Calculation: Convert 250 cm³ to dm³","250 ÷ 1000 = 0.25 dm³"
+
+"What is gas molar volume (RTP)?","24 dm³ per mole"
+
+"Formula for gas moles","moles = volume ÷ 24"
+
+"Calculation: Moles in 48 dm³ gas","48 ÷ 24 = 2 mol"
+
+"What is ideal gas equation?","pV = nRT"
+
+"What do the symbols mean in pV=nRT?","p=pressure, V=volume, n=moles, R=constant, T=temperature (K)"
+
+"Convert °C to Kelvin","K = °C + 273"
+
+"Calculation: Convert 25°C to K","25 + 273 = 298 K"
+
+"Calculation: Find moles using pV=nRT","Rearrange n = pV ÷ RT"
+
+"What is titration?","Method to find concentration using neutralisation."
+
+"Formula for titration","c₁V₁ = c₂V₂"
+
+"Calculation: Find unknown concentration","Rearrange formula to solve"
+
+"What is limiting reagent?","Reactant that runs out first."
+
+"Steps to find limiting reagent","1. Find moles\n2. Compare ratio\n3. Smallest = limiting"
+
+"Calculation: Limiting reagent example","Calculate moles and compare ratios"
+
+"What is excess reagent?","Reactant left over after reaction."
+
+"What is solution?","Solute dissolved in solvent."
+
+"What is solute?","Substance dissolved."
+
+"What is solvent?","Liquid that dissolves solute."
+
+"What is standard solution?","Solution with known concentration."
+
+"What is dilution?","Reducing concentration by adding solvent."
+
+"Formula for dilution","c₁V₁ = c₂V₂"
+
+"Calculation: Dilution example","Rearrange and calculate"
+
+"What is percentage composition?","Percentage by mass of each element."
+
+"Calculation: % composition of C in CO₂","(12/44)×100 = 27.3%"
+
+"What is reacting masses?","Masses of substances in reactions."
+
+"Steps for reacting masses","1. Write equation\n2. Convert to moles\n3. Ratio\n4. Convert to mass"
+
+"Calculation: Reacting masses example","Follow steps systematically"
+
+"What is gas volume in reactions?","Use mole ratios with 24 dm³"
+
+"What is concentration in g/dm³?","mass ÷ volume"
+
+"Convert g/dm³ to mol/dm³","Divide by Mr"
+
+"Calculation: Convert 10 g/dm³ NaCl to mol/dm³","10 ÷ 58.5 = 0.171 mol/dm³"
+
+"What is uncertainty in measurements?","Range of possible values."
+
+"Formula for % uncertainty","(uncertainty ÷ value) ×100"
+
+"Calculation: % uncertainty if ±0.2 in 50","(0.2/50)×100 = 0.4%"
+
+"What is significant figures?","Digits showing precision."
+
+"What is standard form?","Number written as a ×10ⁿ"
+
+"Calculation: Convert 56000 to standard form","5.6 ×10⁴"
+
+"What is a key exam tip for calculations?","Always show working and units."
+"What is AO1 in chemistry?","Knowledge."
+"What is AO2 in chemistry?","Application."
+"What is AO3 in chemistry?","Analysis and evaluation."
+"What is the biggest mistake in calculations?","Unit conversion errors."
+"What is the best exam strategy?","Write formula first, then substitute values."
