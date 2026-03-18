@@ -1,1 +1,101 @@
+"Front","Back"
+"What is oxidation?","Loss of electrons."
+"What is reduction?","Gain of electrons."
+"What does OIL RIG stand for?","Oxidation Is Loss, Reduction Is Gain."
 
+"What is oxidation state?","Charge an atom would have if bonds were ionic."
+
+"What is oxidation number of an element?","0"
+"What is oxidation number of Group 1 metals?","+1"
+"What is oxidation number of Group 2 metals?","+2"
+"What is oxidation number of oxygen?","-2 (usually)"
+"What is oxidation number of hydrogen?","+1 (usually)"
+
+"Calculation: Oxidation state of S in SO₄²⁻","S + (4×-2) = -2 → S = +6"
+
+"What is a redox reaction?","Reaction involving oxidation and reduction."
+
+"What is an oxidising agent?","Accepts electrons and is reduced."
+"What is a reducing agent?","Donates electrons and is oxidised."
+
+"What is disproportionation?","Same element is oxidised and reduced."
+
+"What is a half equation?","Equation showing electron transfer."
+
+"Steps to write half equations","Balance atoms → balance charge → add electrons"
+
+"Example: Zn → Zn²⁺","Zn → Zn²⁺ + 2e⁻"
+
+"Example: Cl₂ → Cl⁻","Cl₂ + 2e⁻ → 2Cl⁻"
+
+"What is electrochemical cell?","Produces electricity from redox reactions."
+
+"What is electrode?","Conductor where reaction occurs."
+
+"What is oxidation at electrode?","Occurs at anode."
+"What is reduction at electrode?","Occurs at cathode."
+
+"What is salt bridge?","Allows ions to flow between solutions."
+
+"What is standard electrode potential (E°)?","Measure of tendency to gain electrons."
+
+"What does a positive E° mean?","More likely to be reduced."
+"What does a negative E° mean?","More likely to be oxidised."
+
+"What is cell potential?","Difference between electrode potentials."
+
+"Formula for cell potential","E°cell = E°cathode − E°anode"
+
+"Calculation: If cathode=+0.8, anode=-0.2","E° = 0.8 − (-0.2) = 1.0V"
+
+"What does positive E°cell mean?","Reaction is feasible."
+
+"What is electrolysis?","Decomposition using electricity."
+
+"What is oxidation in electrolysis?","At anode."
+"What is reduction in electrolysis?","At cathode."
+
+"What is Faraday’s constant?","96500 C/mol"
+
+"What is the formula linking charge and moles?","Q = It"
+
+"What does Q represent?","Charge (C)"
+"What does I represent?","Current (A)"
+"What does t represent?","Time (s)"
+
+"Calculation: Q if I=2A, t=100s","Q = 2 × 100 = 200 C"
+
+"What is formula for moles of electrons?","moles = Q ÷ F"
+
+"Calculation: moles if Q=96500","1 mole"
+
+"What is redox titration?","Determines concentration using redox reaction."
+
+"What is potassium manganate(VII)?","Common oxidising agent."
+
+"What colour is KMnO₄?","Purple"
+"What colour does it turn?","Colourless"
+
+"What is potassium dichromate?","Oxidising agent."
+"What colour is dichromate?","Orange"
+"What colour when reduced?","Green"
+
+"What is iodometry?","Uses iodine in titrations."
+
+"What is a standard solution?","Solution of known concentration."
+
+"What is a key exam tip?","Balance electrons correctly."
+
+"What is a common mistake?","Forgetting electrons in half equations."
+
+"What is AO1 in redox?","Definitions."
+"What is AO2 in redox?","Apply calculations."
+"What is AO3 in redox?","Explain electron transfer."
+
+"What is a strong explanation phrase?","Oxidation state increases = oxidation."
+
+"What is a key evaluation point?","Standard conditions may differ in practice."
+
+"What is biggest exam gain?","Correctly balanced equations."
+
+"What is a strong conclusion tip?","Link oxidation state changes to reaction."
