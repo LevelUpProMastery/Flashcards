@@ -1,124 +1,94 @@
 "Front","Back"
-"What is biopsychology?","The study of how biological processes influence behaviour. However, it can be seen as reductionist."
-
-"What is the nervous system?","A network of nerve cells that transmit signals. However, behaviour is not solely biological."
-
-"What are the two divisions of the nervous system?","Central nervous system (CNS) and peripheral nervous system (PNS)."
-
-"What does the CNS consist of?","Brain and spinal cord."
-"What does the PNS consist of?","Somatic and autonomic nervous systems."
-
-"What is the somatic nervous system?","Controls voluntary movement."
+"What is biopsychology?","The study of how biological processes influence behaviour."
+"What is the nervous system?","A network of nerve cells that transmit signals around the body."
+"What are the two main divisions of the nervous system?","Central nervous system (CNS) and peripheral nervous system (PNS)."
+"What does the central nervous system consist of?","The brain and spinal cord."
+"What does the peripheral nervous system consist of?","All nerves outside the brain and spinal cord."
+"What is the somatic nervous system?","Controls voluntary movements."
 "What is the autonomic nervous system?","Controls involuntary processes."
-
-"What are the two divisions of ANS?","Sympathetic and parasympathetic."
-
-"What is the sympathetic system?","Prepares body for fight or flight."
-"What is the parasympathetic system?","Returns body to resting state."
-
-"What is fight or flight?","Body’s response to perceived threat."
-
-"Scenario: Heart rate increases in danger","Sympathetic nervous system activation."
-
+"What are the two divisions of the autonomic nervous system?","Sympathetic and parasympathetic nervous systems."
+"What is the role of the sympathetic nervous system?","Prepares the body for fight or flight."
+"What is the role of the parasympathetic nervous system?","Returns the body to a resting state."
 "What is a neuron?","A nerve cell that transmits electrical impulses."
-
-"What are parts of a neuron?","Dendrites, cell body, axon, myelin sheath."
-
-"What is synaptic transmission?","Communication between neurons via neurotransmitters."
-
-"What is a neurotransmitter?","Chemical messenger between neurons."
-
-"What is excitation?","Increases likelihood of neuron firing."
-"What is inhibition?","Decreases likelihood of firing."
-
-"What is a strength of synaptic transmission theory?","Supported by drug studies."
-"What is a limitation?","Oversimplifies complex brain processes."
-
-"What is the endocrine system?","System of glands releasing hormones."
-
-"What is a hormone?","Chemical released into bloodstream."
-
-"What is the pituitary gland?","Master gland controlling others."
-
-"What is adrenaline?","Hormone linked to stress response."
-
-"Scenario: Sweating before exam","Adrenaline release from endocrine system."
-
-"What is localisation of function?","Specific brain areas have specific roles."
-
+"What are dendrites?","Branch-like structures that receive signals from other neurons."
+"What is the cell body?","Contains the nucleus of the neuron."
+"What is the axon?","Carries electrical impulses away from the cell body."
+"What is the myelin sheath?","Fatty layer that insulates the axon and speeds up transmission."
+"What is synaptic transmission?","Communication between neurons using neurotransmitters."
+"What is a synapse?","The gap between two neurons."
+"What is a neurotransmitter?","A chemical that transmits signals across a synapse."
+"What is excitation?","Increases the likelihood of a neuron firing."
+"What is inhibition?","Decreases the likelihood of a neuron firing."
+"What is the endocrine system?","A system of glands that release hormones into the bloodstream."
+"What is a hormone?","A chemical messenger carried in the blood."
+"What is the pituitary gland?","The master gland that controls other endocrine glands."
+"What is adrenaline?","A hormone released during stress."
+"What is fight or flight response?","The body’s reaction to a perceived threat."
+"What is localisation of function?","The idea that specific brain areas have specific functions."
 "What is the motor cortex?","Controls voluntary movement."
+"What is the somatosensory cortex?","Processes sensory information from the body."
 "What is the visual cortex?","Processes visual information."
-
-"What is Broca’s area?","Speech production."
-"What is Wernicke’s area?","Language comprehension."
-
-"What is a strength of localisation?","Supported by brain scan evidence."
-"What is a limitation?","Some functions are distributed."
-
-"What is neuroplasticity?","Brain’s ability to change and adapt."
-
-"What is functional recovery?","Brain can reorganise after damage."
-
-"What is a strength of neuroplasticity?","Supported by case studies."
-"What is a limitation?","Recovery varies between individuals."
-
-"What are biological rhythms?","Internal body clocks."
-
-"What is circadian rhythm?","24-hour cycle."
-
-"What is sleep-wake cycle?","Pattern of sleeping and waking."
-
-"What is the role of melatonin?","Hormone regulating sleep."
-
-"What is the role of light in rhythms?","Acts as exogenous zeitgeber."
-
-"What is endogenous pacemaker?","Internal biological clock."
-
-"What is the suprachiasmatic nucleus (SCN)?","Controls circadian rhythm."
-
-"What is a strength of biological rhythm research?","Scientific measurement."
-"What is a limitation?","May lack ecological validity."
-
-"Scenario: Jet lag after travel","Disruption of circadian rhythm."
-
-"What is AO1 in biopsychology?","Knowledge of biological systems."
-"What is AO2 in biopsychology?","Application to scenarios."
-"What is AO3 in biopsychology?","Evaluation of research."
-
-"What is a strong AO3 point?","Biological explanations are reductionist."
-
-"What is a strong evaluation phrase?","However, this ignores environmental influences."
-
-"What is a comparison point?","Biological vs cognitive explanations."
-
-"What is a strong conclusion?","Behaviour is influenced by both biology and environment."
-
-"Evaluation card 1","Reductionism limits explanation."
-"Evaluation card 2","Scientific methods increase reliability."
-"Evaluation card 3","Ethical issues in brain research."
-"Evaluation card 4","Real-world applications in medicine."
-"Evaluation card 5","Individual differences affect outcomes."
-"Evaluation card 6","Brain is more complex than models suggest."
-"Evaluation card 7","Environmental factors also influence behaviour."
-"Evaluation card 8","Use of brain scans increases validity."
-"Evaluation card 9","Causation difficult to establish."
-"Evaluation card 10","Biological approach lacks holistic view."
-
-"Scenario: Person loses speech after stroke","Damage to Broca’s area."
-
-"Scenario: Person sleeps poorly without light cues","Disrupted circadian rhythm."
-
-"Scenario: Medication affects mood","Neurotransmitter involvement."
-
-"Scenario: Athlete improves after brain injury","Neuroplasticity in action."
-
-"Exam tip 1","Link brain area to function clearly."
-"Exam tip 2","Always include AO3."
-"Exam tip 3","Use scientific terminology."
-"Exam tip 4","Apply to real-life examples."
-"Exam tip 5","Compare explanations."
-"Exam tip 6","Use named brain areas."
-"Exam tip 7","Explain processes step-by-step."
-"Exam tip 8","Use diagrams in revision."
-"Exam tip 9","Include evaluation in answers."
-"Exam tip 10","Structure 16 markers clearly."
+"What is the auditory cortex?","Processes sound."
+"What is Broca’s area?","Responsible for speech production."
+"What is Wernicke’s area?","Responsible for language comprehension."
+"What is the cerebellum?","Coordinates movement and balance."
+"What is the hypothalamus?","Regulates body functions such as temperature and hunger."
+"What is the hippocampus?","Involved in memory formation."
+"What is neuroplasticity?","The brain’s ability to change and adapt."
+"What is functional recovery?","The brain’s ability to recover after damage."
+"What are biological rhythms?","Internal cycles that regulate bodily processes."
+"What is a circadian rhythm?","A 24-hour biological cycle."
+"What is the sleep-wake cycle?","The pattern of sleeping and waking."
+"What is melatonin?","A hormone that regulates sleep."
+"What is an endogenous pacemaker?","An internal body clock."
+"What is the suprachiasmatic nucleus (SCN)?","Controls circadian rhythms."
+"What is an exogenous zeitgeber?","An external cue such as light."
+"What is infradian rhythm?","A rhythm lasting longer than 24 hours."
+"What is ultradian rhythm?","A rhythm lasting less than 24 hours."
+"What is a neuron impulse?","An electrical signal transmitted along a neuron."
+"What is resting potential?","The charge of a neuron when not firing."
+"What is action potential?","The change in electrical charge when a neuron fires."
+"What is all-or-nothing law?","A neuron either fires fully or not at all."
+"What is reuptake?","The reabsorption of neurotransmitters."
+"What is enzyme degradation?","Breaking down neurotransmitters in the synapse."
+"What is the adrenal gland?","Releases adrenaline."
+"What is the thyroid gland?","Regulates metabolism."
+"What is the pineal gland?","Releases melatonin."
+"What is EEG?","Measures electrical activity in the brain."
+"What is fMRI?","Measures brain activity using blood flow."
+"What is PET scan?","Uses radioactive substances to detect brain activity."
+"What is post-mortem examination?","Studying the brain after death."
+"What is hemispheric lateralisation?","The idea that each hemisphere has different functions."
+"What is the left hemisphere associated with?","Language and logical thinking."
+"What is the right hemisphere associated with?","Creativity and spatial awareness."
+"What is split-brain research?","Studies on patients with severed corpus callosum."
+"What is the corpus callosum?","Bundle of fibres connecting the hemispheres."
+"What is plasticity after injury?","The brain reorganises functions after damage."
+"What is synaptic pruning?","Elimination of unused neural connections."
+"What is a reflex action?","Automatic response to a stimulus."
+"What is the spinal cord?","Transmits signals between brain and body."
+"What is afferent neuron?","Carries signals to the CNS."
+"What is efferent neuron?","Carries signals from the CNS."
+"What is relay neuron?","Connects neurons within the CNS."
+"What is the role of glucose in the brain?","Provides energy for brain activity."
+"What is dopamine?","A neurotransmitter linked to reward."
+"What is serotonin?","A neurotransmitter linked to mood."
+"What is acetylcholine?","A neurotransmitter linked to muscle movement."
+"What is GABA?","An inhibitory neurotransmitter."
+"What is glutamate?","An excitatory neurotransmitter."
+"What is homeostasis?","Maintaining internal balance."
+"What is circadian disruption?","Disturbance of sleep cycle."
+"What is jet lag?","Disruption of circadian rhythm due to travel."
+"What is shift work disorder?","Sleep disruption due to irregular work hours."
+"What is the role of light in rhythms?","Resets the biological clock."
+"What is sleep stage 1?","Light sleep stage."
+"What is sleep stage 2?","Deeper sleep with slowed brain activity."
+"What is sleep stage 3?","Deep sleep stage."
+"What is REM sleep?","Rapid eye movement sleep associated with dreaming."
+"What is brain stem?","Controls basic life functions."
+"What is the amygdala?","Processes emotions such as fear."
+"What is lateralisation advantage?","Increased efficiency of brain function."
+"What is a biological explanation?","Explains behaviour through physical processes."
+"What is reductionism?","Explaining behaviour in simple biological terms."
+"What is determinism?","Behaviour is caused by biological factors."
+"What is the role of neurons in behaviour?","Transmit signals that influence actions."
