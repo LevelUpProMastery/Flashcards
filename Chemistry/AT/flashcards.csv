@@ -1,1 +1,76 @@
+"Front","Back"
+"What is analytical chemistry?","Techniques used to identify and quantify substances."
 
+"What is chromatography?","Technique used to separate mixtures."
+"What is paper chromatography?","Separates substances using paper and solvent."
+
+"What is stationary phase?","The solid or liquid that stays still."
+"What is mobile phase?","The liquid that moves."
+
+"What is Rf value?","Distance travelled by substance ÷ distance travelled by solvent."
+
+"Calculation: Rf if substance=4cm, solvent=10cm","Rf = 4/10 = 0.4"
+
+"What does same Rf value indicate?","Same substance (under same conditions)."
+
+"What is gas chromatography (GC)?","Separates volatile compounds."
+
+"What is retention time?","Time taken for substance to pass through column."
+
+"What does shorter retention time mean?","More volatile / weaker intermolecular forces."
+
+"What is calibration curve?","Graph used to find concentration."
+
+"What is mass spectrometry?","Measures mass and abundance of ions."
+
+"What is molecular ion peak?","Peak showing Mr of compound."
+
+"What is base peak?","Highest peak (most abundant ion)."
+
+"What is fragmentation?","Breaking molecule into smaller ions."
+
+"What is infrared spectroscopy?","Identifies bonds in molecules."
+
+"What does IR measure?","Bond vibrations."
+
+"What is O–H bond peak?","Broad peak around 3200–3600 cm⁻¹"
+"What is C=O bond peak?","Sharp peak around 1700 cm⁻¹"
+"What is C–H bond peak?","Around 2850–3000 cm⁻¹"
+
+"What is NMR spectroscopy?","Shows environment of hydrogen/carbon atoms."
+
+"What does chemical shift indicate?","Type of environment."
+
+"What is TMS?","Reference standard at 0 ppm."
+
+"What is splitting pattern?","Shows neighbouring hydrogens."
+
+"What is n+1 rule?","Number of peaks = neighbours + 1"
+
+"What is integration?","Area under peak showing ratio of hydrogens."
+
+"Calculation: Ratio from integration 2:3","Represents CH₂ and CH₃ groups"
+
+"What is ¹H NMR?","Hydrogen NMR spectroscopy."
+"What is ¹³C NMR?","Carbon NMR spectroscopy."
+
+"What does number of peaks show?","Number of different environments."
+
+"What is solvent peak?","Peak from solvent used."
+
+"What is low resolution NMR?","Shows broad peaks."
+"What is high resolution NMR?","Shows splitting patterns."
+
+"What is a key exam tip?","Use all spectra together."
+
+"What is a common mistake?","Ignoring integration values."
+
+"What is AO1 in analysis?","Definitions."
+"What is AO2 in analysis?","Apply spectra."
+"What is AO3 in analysis?","Interpret data."
+
+"What is a strong explanation phrase?","Peak corresponds to bond/environment."
+
+"What is biggest exam gain?","Correctly interpreting spectra."
+
+"What is a strong conclusion tip?","Use multiple pieces of evidence."
