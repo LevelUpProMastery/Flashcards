@@ -1,121 +1,76 @@
-Front,Back
-What is the skeletal system?,The framework of bones supporting the body
-What are the functions of the skeleton?,Support protection movement blood cell production
-What is a long bone?,A bone longer than it is wide e.g. femur
-What is a short bone?,A small cube-shaped bone e.g. carpals
-What is a flat bone?,A thin bone e.g. ribs
-What is an irregular bone?,A bone with complex shape e.g. vertebrae
-What is the axial skeleton?,Central bones including skull and spine
-What is the appendicular skeleton?,Limbs and girdles
-What is a joint?,Where two bones meet
-What is a hinge joint?,Allows flexion and extension e.g. elbow
-What is a ball and socket joint?,Allows movement in all directions e.g. hip
-What is a pivot joint?,Allows rotation e.g. neck
-What is flexion?,Decreasing the angle at a joint
-What is extension?,Increasing the angle at a joint
-What is abduction?,Movement away from the midline
-What is adduction?,Movement towards the midline
-What is rotation?,Circular movement around an axis
-What is circumduction?,Combination of movements forming a circle
-What is the muscular system?,System of muscles enabling movement
-What are antagonistic muscles?,Muscles working in pairs
-What is an agonist?,Muscle causing movement
-What is an antagonist?,Muscle opposing movement
-What is a fixator?,Stabilises a joint
-What is a synergist?,Assists the agonist
-What is a muscle fibre?,A single muscle cell
-What is contraction?,Muscle shortening
-What is relaxation?,Muscle lengthening
-What is isotonic contraction?,Muscle changes length
-What is isometric contraction?,Muscle stays same length
-What is concentric contraction?,Muscle shortens
-What is eccentric contraction?,Muscle lengthens under tension
-What is cardiac muscle?,Muscle of the heart
-What is skeletal muscle?,Voluntary muscle
-What is smooth muscle?,Involuntary muscle
-What is the cardiovascular system?,Heart and blood vessels
-What is heart rate?,Beats per minute
-What is stroke volume?,Blood pumped per beat
-What is cardiac output?,Heart rate multiplied by stroke volume
-What is the respiratory system?,Breathing system
-What is tidal volume?,Air per breath
-What is vital capacity?,Maximum air exhaled
-What is oxygen uptake?,Oxygen used by the body
-What is haemoglobin?,Protein carrying oxygen
-What is diffusion?,Movement from high to low concentration
-What is aerobic respiration?,Energy production with oxygen
-What is anaerobic respiration?,Energy production without oxygen
-What is ATP?,Energy currency of the body
-What is the ATP-PC system?,Immediate energy system
-What is the glycolytic system?,Short-term energy system
-What is the aerobic system?,Long-term energy system
-What is lactic acid?,By-product of anaerobic exercise
-What is oxygen debt?,Extra oxygen needed after exercise
-What is EPOC?,Excess post exercise oxygen consumption
-What is VO2 max?,Maximum oxygen uptake
-What is recovery?,Return to resting state
-What is muscle fatigue?,Reduced ability to contract
-What are fast twitch fibres?,Explosive muscle fibres
-What are slow twitch fibres?,Endurance muscle fibres
-What is a motor unit?,Nerve and muscle fibres it controls
-What is a neuromuscular junction?,Connection between nerve and muscle
-What is the sliding filament theory?,Explains muscle contraction
-What is actin?,Thin filament
-What is myosin?,Thick filament
-What is a sarcomere?,Functional unit of muscle
-What is a tendon?,Connects muscle to bone
-What is a ligament?,Connects bone to bone
-What is cartilage?,Reduces friction in joints
-What is synovial fluid?,Lubricates joints
-What is the sagittal plane?,Divides body left and right
-What is the frontal plane?,Divides body front and back
-What is the transverse plane?,Divides body top and bottom
-What is an axis?,Line of rotation
-What is the transverse axis?,Runs left to right
-What is the longitudinal axis?,Runs top to bottom
-What is the frontal axis?,Runs front to back
-What is Newtons first law?,Object stays still or moving unless acted on
-What is Newtons second law?,Force equals mass times acceleration
-What is Newtons third law?,Every action has equal and opposite reaction
-What is force?,A push or pull
-What is acceleration?,Change in velocity
-What is velocity?,Speed in a given direction
-What is momentum?,Mass multiplied by velocity
-What is balance?,Maintaining stability
-What is centre of mass?,Balance point of the body
-What is base of support?,Area beneath the body
-What is stability?,Resistance to change
-What is linear motion?,Movement in a straight line
-What is angular motion?,Rotational movement
-What is projectile motion?,Flight of an object
-What is drag?,Air resistance
-What is lift?,Upward force
-What is spin?,Rotation affecting movement
-What is hypertrophy?,Increase in muscle size
-What is atrophy?,Decrease in muscle size
-What is capillarisation?,Increase in capillaries
-What is resting heart rate adaptation?,Decrease in resting HR
-What is training intensity?,Level of effort
-What is overload?,Increasing demand on body
-What is progression?,Gradual increase in training
-What is reversibility?,Loss of fitness when stopping
-What is specificity?,Training matches sport
-What is a warm-up?,Prepares the body for exercise
-What is a cool down?,Gradual return to rest
-What is strength?,Maximum force produced
-What is endurance?,Ability to sustain effort
-What is speed?,Ability to move quickly
-What is flexibility?,Range of movement at joints
-What is power?,Strength multiplied by speed
-What is agility?,Ability to change direction quickly
-What is coordination?,Smooth controlled movement
-What is reaction time?,Time taken to respond
-What is a sprain?,Ligament injury
-What is a strain?,Muscle injury
-What is a fracture?,Broken bone
-What is RICE?,Rest Ice Compression Elevation
-What are carbohydrates?,Main energy source
-What is protein?,Muscle repair and growth
-What are fats?,Energy storage
-What is hydration?,Maintaining fluid levels
-What is dehydration?,Lack of water in body
+"Front","Back"
+"What is the skeletal system?","The framework of bones supporting the body"
+"What are the functions of the skeleton?","Support protection movement blood cell production"
+"What is a long bone?","A bone longer than it is wide e.g. femur"
+"What is a short bone?","A small cube-shaped bone e.g. carpals"
+"What is a flat bone?","A thin bone e.g. ribs"
+"What is an irregular bone?","A bone with complex shape e.g. vertebrae"
+"What is the axial skeleton?","Central bones including skull and spine"
+"What is the appendicular skeleton?","Limbs and girdles"
+"What is a joint?","Where two bones meet"
+"What is a hinge joint?","Allows flexion and extension e.g. elbow"
+"What is a ball and socket joint?","Allows movement in all directions e.g. hip"
+"What is a pivot joint?","Allows rotation e.g. neck"
+"What is flexion?","Decreasing the angle at a joint"
+"What is extension?","Increasing the angle at a joint"
+"What is abduction?","Movement away from the midline"
+"What is adduction?","Movement towards the midline"
+"What is rotation?","Circular movement around an axis"
+"What is circumduction?","Combination of movements forming a circle"
+"What is the muscular system?","System of muscles enabling movement"
+"What are antagonistic muscles?","Muscles working in pairs"
+"What is an agonist?","Muscle causing movement"
+"What is an antagonist?","Muscle opposing movement"
+"What is a fixator?","Stabilises a joint"
+"What is a synergist?","Assists the agonist"
+"What is a muscle fibre?","A single muscle cell"
+"What is contraction?","Muscle shortening"
+"What is relaxation?","Muscle lengthening"
+"What is isotonic contraction?","Muscle changes length"
+"What is isometric contraction?","Muscle stays same length"
+"What is concentric contraction?","Muscle shortens"
+"What is eccentric contraction?","Muscle lengthens under tension"
+"What is cardiac muscle?","Muscle of the heart"
+"What is skeletal muscle?","Voluntary muscle"
+"What is smooth muscle?","Involuntary muscle"
+"What is the cardiovascular system?","Heart and blood vessels"
+"What is heart rate?","Beats per minute"
+"What is stroke volume?","Blood pumped per beat"
+"What is cardiac output?","Heart rate multiplied by stroke volume"
+"What is the respiratory system?","Breathing system"
+"What is tidal volume?","Air per breath"
+"What is vital capacity?","Maximum air exhaled"
+"What is oxygen uptake?","Oxygen used by the body"
+"What is haemoglobin?","Protein carrying oxygen"
+"What is diffusion?","Movement from high to low concentration"
+"What is aerobic respiration?","Energy production with oxygen"
+"What is anaerobic respiration?","Energy production without oxygen"
+"What is ATP?","Energy currency of the body"
+"What is the ATP-PC system?","Immediate energy system"
+"What is the glycolytic system?","Short-term energy system"
+"What is the aerobic system?","Long-term energy system"
+"What is lactic acid?","By-product of anaerobic exercise"
+"What is oxygen debt?","Extra oxygen needed after exercise"
+"What is EPOC?","Excess post exercise oxygen consumption"
+"What is VO2 max?","Maximum oxygen uptake"
+"What is recovery?","Return to resting state"
+"What is muscle fatigue?","Reduced ability to contract"
+"What are fast twitch fibres?","Explosive muscle fibres"
+"What are slow twitch fibres?","Endurance muscle fibres"
+"What is a motor unit?","Nerve and muscle fibres it controls"
+"What is a neuromuscular junction?","Connection between nerve and muscle"
+"What is the sliding filament theory?","Explains muscle contraction"
+"What is actin?","Thin filament"
+"What is myosin?","Thick filament"
+"What is a sarcomere?","Functional unit of muscle"
+"What is a tendon?","Connects muscle to bone"
+"What is a ligament?","Connects bone to bone"
+"What is cartilage?","Reduces friction in joints"
+"What is synovial fluid?","Lubricates joints"
+"What is the sagittal plane?","Divides body left and right"
+"What is the frontal plane?","Divides body front and back"
+"What is the transverse plane?","Divides body top and bottom"
+"What is an axis?","Line of rotation"
+"What is the transverse axis?","Runs left to right"
+"What is the longitudinal axis?","Runs top to bottom"
+"What is the frontal axis?","Runs front to back"
